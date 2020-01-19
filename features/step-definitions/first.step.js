@@ -28,4 +28,20 @@ defineFeature(feature, test => {
             expect('people').not.toBe('haters');
         });
     });
+
+    test('Launching a SpaceX rocket unsuccessfully', ({ given, when, then }) => {
+        let rocket;
+
+        given('I am Elon Musk attempting to launch a rocket into space', () => {
+            rocket = new Rocket();
+        });
+
+        when('I launch the rocket', () => {
+            rocket.launch();
+        });
+
+        then('the rocket should not end up in space', () => {
+            expect(rocket.isInSpace).toBe(false);
+        });
+    });
 });
