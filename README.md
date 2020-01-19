@@ -20,9 +20,15 @@ npm test
 ```shell script
 npm run report
 ```
-
+### Configuration
 The source and output folder for the HTML report is defined in ./reports/cucumber-report-config.js
 As final step this report should be saved with a timestamp or a version to an artifact manager /file system, server, AWS S3, etc)
+
+### Examples
+[Green specs](./examples/cucumber-report.html)
+
+[Failed specs](./examples/cucumber-report-failed.html)
+
 
 ## to-do
 - move the different configurations to one place like config
