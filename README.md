@@ -1,4 +1,4 @@
-![](https://github.com/yellowbrickc/jestBdd/workflows/.github/workflows/ci.yml/badge.svg)
+![](https://github.com/yellowbrickc/jestBdd/workflows/Node%20CI/badge.svg)
 
 # jestBdd
 example for nodejs tests implemented with jest and cucumber, using [jest-cucumber](https://github.com/bencompton/jest-cucumber) 
