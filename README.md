@@ -1,7 +1,8 @@
 ![](https://github.com/yellowbrickc/jestBdd/workflows/.github/workflows/ci.yml/badge.svg)
+
 # jestBdd
 example for nodejs tests implemented with jest and cucumber, using [jest-cucumber](https://github.com/bencompton/jest-cucumber) 
-and [cucumber-html-reporter](https://github.com/gkushang/cucumber-html-reporter)
+and with a report including a pie chart generated with [cucumber-html-reporter](https://github.com/gkushang/cucumber-html-reporter)
 
 ## BDD-Specifications and report generation
 
