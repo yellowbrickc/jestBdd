@@ -5,18 +5,20 @@
   "main": "index.js",
   "scripts": {
     "test": "jest --color",
-    "jest": "jest --verbose"
+    "jest": "jest --verbose",
+    "bdd": "jest && node reports/cucumber-report-config.js",
+    "report": "node reports/cucumber-report-config.js"
   },
   "dependencies": {
     "@babel/preset-env": "^7.8.3",
-    "@jest/transform": "^24.9.0",
     "@types/jest": "^24.9.0",
     "babel-core": "^6.26.0",
     "babel-jest": "^24.9.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-preset-env": "^1.6.1",
+    "cucumber-html-reporter": "^5.1.0",
     "jest": "^24.9.0",
-    "jest-cucumber": "^2.0.11"
+    "jest-cucumber": "^2.0.12"
   },
   "devDependencies": {
     "eslint": "^6.1.0",
@@ -24,6 +26,9 @@
     "eslint-plugin-cucumber": "^1.2.0",
     "eslint-plugin-import": "^2.18.2",
     "eslint-plugin-json": "^1.4.0"
+  },
+  "jestJsonReporter": {
+    "outputFile": "reports/test-report.json"
   },
   "author": "yellowbrickc",
   "license": "Apache-2.0"
