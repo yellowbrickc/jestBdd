@@ -25,11 +25,12 @@ The source and output folder for the HTML report is defined in ./reports/cucumbe
 As final step this report should be saved with a timestamp or a version to an artifact manager /file system, server, AWS S3, etc)
 
 ### Examples
-[Green specs](./examples/cucumber-report.html)
+![Green specs](./examples/GreenSpecs.png)
 
-[Failed specs](./examples/cucumber-report-failed.html)
+![Failed specs](./examples/FailedSpecs.png)
 
 
 ## to-do
 - move the different configurations to one place like config
+- create examples for tag filtering (special for @wip)
 - persist the artifacts (?)
