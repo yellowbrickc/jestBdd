@@ -3,10 +3,10 @@ const reporter = require('cucumber-html-reporter');
 const options = {
     theme: 'bootstrap',
     jsonFile: './reports/test-report.json',
-    output: './reports/cucumber_report.html',
+    output: './reports/cucumber-report.html',
     reportSuiteAsScenarios: true,
     scenarioTimestamp: true,
-    launchReport: true,
+    launchReport: false,
     metadata: {
         "App Version": "0.3.2",
         "Test Environment": "STAGING",

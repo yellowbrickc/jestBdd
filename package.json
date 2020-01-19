@@ -1,7 +1,7 @@
 {
   "name": "jestbdd",
   "version": "1.0.0",
-  "description": "example for jest with cucumber",
+  "description": "example for BDD test for nodejs written with jest with cucumber",
   "main": "index.js",
   "scripts": {
     "test": "jest --color",
