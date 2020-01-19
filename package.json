@@ -1,0 +1,30 @@
+{
+  "name": "jestbdd",
+  "version": "1.0.0",
+  "description": "example for jest with cucumber",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest --color",
+    "jest": "jest --verbose"
+  },
+  "dependencies": {
+    "@babel/preset-env": "^7.8.3",
+    "@jest/transform": "^24.9.0",
+    "@types/jest": "^24.9.0",
+    "babel-core": "^6.26.0",
+    "babel-jest": "^24.9.0",
+    "babel-plugin-module-resolver": "^4.0.0",
+    "babel-preset-env": "^1.6.1",
+    "jest": "^24.9.0",
+    "jest-cucumber": "^2.0.11"
+  },
+  "devDependencies": {
+    "eslint": "^6.1.0",
+    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint-plugin-cucumber": "^1.2.0",
+    "eslint-plugin-import": "^2.18.2",
+    "eslint-plugin-json": "^1.4.0"
+  },
+  "author": "yellowbrickc",
+  "license": "Apache-2.0"
+}
