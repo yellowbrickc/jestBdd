@@ -4,6 +4,7 @@
   "description": "example for BDD test for nodejs written with jest with cucumber",
   "main": "index.js",
   "scripts": {
+    "lint:fix": "eslint --fix",
     "test": "jest --color",
     "jest": "jest --verbose",
     "report": "node reports/cucumber-report-config.js"
