@@ -10,22 +10,22 @@
   },
   "dependencies": {
     "@babel/preset-env": "^7.8.7",
-    "@types/jest": "^24.9.0",
+    "@types/jest": "^26.0.5",
     "acorn": "^7.1.1",
     "babel-core": "^6.26.3",
-    "babel-jest": "^24.9.0",
+    "babel-jest": "^26.1.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-preset-env": "^1.6.1",
     "cucumber-html-reporter": "^5.1.0",
-    "jest": "^24.9.0",
+    "jest": "^26.1.0",
     "jest-cucumber": "^2.0.12"
   },
   "devDependencies": {
-    "eslint": "^6.8.0",
-    "eslint-config-airbnb-base": "^13.2.0",
+    "eslint": "^7.5.0",
+    "eslint-config-airbnb-base": "^14.2.0",
     "eslint-plugin-cucumber": "^1.2.0",
-    "eslint-plugin-import": "^2.18.2",
-    "eslint-plugin-json": "^1.4.0"
+    "eslint-plugin-import": "^2.22.0",
+    "eslint-plugin-json": "^2.1.1"
   },
   "jestJsonReporter": {
     "outputFile": "reports/test-report.json"
