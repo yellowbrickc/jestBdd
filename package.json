@@ -3,6 +3,7 @@
   "version": "1.0.0",
   "description": "example for BDD test for nodejs written with jest with cucumber",
   "main": "index.js",
+  "repository": "https://github.com/yellowbrickc/jestBdd",
   "scripts": {
     "lint:fix": "eslint --fix",
     "test": "jest --color",
@@ -11,14 +12,14 @@
   },
   "dependencies": {
     "@babel/preset-env": "^7.8.7",
-    "@types/jest": "^26.0.5",
+    "@types/jest": "^24.9.0",
     "acorn": "^7.1.1",
     "babel-core": "^6.26.3",
-    "babel-jest": "^26.1.0",
+    "babel-jest": "^24.9.0",
     "babel-plugin-module-resolver": "^4.0.0",
     "babel-preset-env": "^1.6.1",
     "cucumber-html-reporter": "^5.1.0",
-    "jest": "^26.1.0",
+    "jest": "^24.9.0",
     "jest-cucumber": "^2.0.12"
   },
   "devDependencies": {
