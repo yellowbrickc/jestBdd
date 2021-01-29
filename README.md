@@ -1,5 +1,11 @@
 ![](https://github.com/yellowbrickc/jestBdd/workflows/Node%20CI/badge.svg)
 
+# New insights: writing Gherkin specs with Jest is an overkill and too expensive for the price one pays by not using cucumber.js
+The only currently existing solution is the [jest-cucumber](https://github.com/bencompton/jest-cucumber) package. This had one version supporting the reports but this feature was not supported in other versions. As nobody should use outdated packages, I discourage from building on this solution.
+I migrated all my tests to cucumber.js in a few days and it was the right decisions. With this all said, I will archive this repo in a few weeks.
+
+---------------------
+
 # jestBdd
 Example for nodejs specs implemented with jest and cucumber, using [jest-cucumber](https://github.com/bencompton/jest-cucumber) 
 and with a report including a pie chart generated with [cucumber-html-reporter](https://github.com/gkushang/cucumber-html-reporter)
@@ -31,6 +37,4 @@ As final step this report should be saved with a timestamp or a version to an ar
 
 
 ## to-do
-- move the different configurations to one place like config
-- create examples for tag filtering (special for @wip)
-- persist the artifacts (?)
+- archive the repo
